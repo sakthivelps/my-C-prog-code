@@ -1,0 +1,23 @@
+#include <stdio.h>
+int main()
+{
+int ans1 = 50+100;
+int ans2 = ans1+100;
+int ans3 = ans2+ans1;
+
+int ans4 = 30/20;
+int ans5= 20%3;int ans8= --ans1;
+int ans6= ++ans1;
+
+
+
+
+printf("%d\n",ans1);
+printf("%d\n",ans2);
+printf("%d\n",ans3);
+printf("%d\n",ans4);
+printf("%d\n",ans5);
+printf("%d\n",ans6);
+printf("%d\n",ans8);
+return 0;
+}
