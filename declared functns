@@ -10,3 +10,35 @@ int main()
 myfunction();
 return 0;
 }
+
+
+
+// operations using return values with one parameters
+
+#include <stdio.h>
+
+int myFunction(int x) {
+  return 5 + x;
+}
+
+int main() {S
+  printf("Result is: %d", myFunction(4));
+
+  return 0;
+}
+//output 9(5+4)
+
+// operations using return values with two parameters
+
+#include <stdio.h>
+
+int myFunction(int x,int y) {
+  return x+y;
+}
+
+int main() {
+  printf("Result is: %d", myFunction(4,5));
+
+  return 0;
+}
+// output 9(4+5)
