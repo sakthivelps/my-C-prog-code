@@ -1,0 +1,12 @@
+#include<stdio.h>
+
+void myfunction()
+{
+printf("Print values using predefined functions");
+}
+
+int main()
+{
+myfunction();
+return 0;
+}
